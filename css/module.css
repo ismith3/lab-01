@@ -9,23 +9,17 @@ section.skinny {
   width: 50%;
   padding: 115px 0;
 }
+.mid {
+  flex-direction: column;
+}
+.top {
+  flex-direction: row;
+}
 section.top-section:nth-of-type(1) {
   background-color: yellow;
 }
 section.top-section:nth-of-type(2) {
   background-color: green;
-}
-.top-section.left {
-  display: inline-block;
-}
-.top-section.right {
-  display: inline-block;
-}
-section.left {
-  float: left;
-}
-section.right {
-  float: right;
 }
 div section:nth-of-type(1) {
   background-color: turquoise;

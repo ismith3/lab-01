@@ -15,20 +15,27 @@
 <body>
   <div class="channel">
   <nav>a</nav>
-  <aside>b</aside>
+  <div class="flex-container vertical">
+    <aside>b</aside>
 
-  <main>
-      <section class="top-section left"><p>c</p></section
-      ><section class="top-section right"><p>d</p></section>
-
-      <div>
+    <main>
+      <div class="flex-container mid">
+        <section class="top-section left"><p>c</p></section
+        ><section class="top-section right"><p>d</p></section>
+      </div>
+          
+    
+      <div class="flex-container">
         <section class="skinny left">e</section>
         <section class="skinny right">f</section>
         <section class="skinny left">g</section>
         <section class="skinny right">h</section>
       </div>
+    
       <footer>i</footer>
     </main>
+  </div>
+  
   </div> 
   <script src="app.js"></script>
 </body>
